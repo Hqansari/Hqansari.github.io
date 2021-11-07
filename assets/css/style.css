@@ -1,0 +1,268 @@
+/************** Template Name: BAKERY ************/
+/*****************General********************/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=WindSong&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.body
+{
+    color:rgb(187, 157, 157);
+}
+.header 
+{
+    height: fit-content;
+    background-color: rgb(187, 157, 157);
+    box-shadow: 0 5px 10px #efefef;
+    position: sticky;
+
+}
+/***********Arrow-button***********/
+.arrow-btn
+  {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+  }
+  .arrow-btn a
+  {
+    height: 30px;
+    width: 20px;
+    text-align: center;
+    background:rgb(87, 39, 4);
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .arrow-btn span{
+    color: #f2f2f2;
+    line-height: 25px;
+    font-size: 25px;
+
+  }
+/************Navbar-style***********/
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    margin: 4px;
+}
+.logo 
+{
+    height: 80px;
+    padding: 1px 5px;
+    position: sticky;
+
+}
+.icon-bar
+{
+    background-color: rgb(170, 47, 47);
+}
+li a 
+{
+    color: black;
+ 
+}
+/**************Container*******/
+.big-text
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 62px;
+    margin: 20px 0;
+    color: rgb(87, 39, 4);
+    text-shadow: 1rem black;
+    text-decoration: solid;
+    text-align: justify;
+}
+.text
+{
+    color: brown;
+}
+.col-sm-6 .small-text
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(68, 67, 6);
+}
+.col-sm-6 .para
+{
+    font-family: sans-serif;
+    color: rgb(95, 14, 14);
+    font-size: large;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+.col-sm-6 
+{
+    display: grid;
+}
+.col-sm-6 p
+{
+    font-family: sans-serif;
+    color: rgb(73, 10, 10);
+    font-size: large;
+    text-align: left;
+    position: relative;
+    text-transform: capitalize;
+    text-decoration: solid;
+    margin-bottom: 10px;
+}
+.col-sm-6 img
+{
+    height: 450px;
+    width: 500px;
+    display: grid;
+
+}
+/***************btn*******/
+.a .btn
+{
+   padding: 20px;
+   padding-right: 20px;
+}
+.a .btn .btn-first
+{
+    background-color: rgb(57, 102, 31);
+    color: #efefef;
+}
+.a .btn .btn-first:hover
+{
+    background:black;
+    border: #999;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
+
+
+/*****************about**********/
+.section-heading h4 {
+    padding: 2px;
+    margin: 20px;
+  text-transform: uppercase;
+  color: #101d2c;
+  line-height: 2;
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.section-heading h1 {
+
+  font-family: "Niconne", cursive;
+  color: rgb(87, 39, 4);
+}
+
+.about .btn {
+  width: 150px;
+  color: rgb(87, 39, 4) !important;
+  transition: background-color 650ms;
+}
+
+.about .btn:hover {
+  color:#000 !important;
+  background-color: rgb(87, 39, 4);
+  margin-bottom: 10px;
+}
+
+/***************Gallery******************/
+.gallery__pic img {
+  position:relative;
+  padding: 1em 0;
+	max-width: 100%;
+  margin: 1em 1em ;
+  size: 150px;
+  }
+  
+  .bg-light {
+	background: rgb(187, 157, 157) !important;
+  }
+  
+  .ftco-section {
+    margin-top: 40px;
+  padding:0;
+	position: relative;
+  }
+  
+  .heading-section {
+	position: relative;
+  }
+  
+  .heading-section .subheading {
+	position:relative;
+	top: -50px;
+	left: 0;
+	right: 0;
+	font-weight: normal;
+	font-size: 50px;
+	display: block;
+	margin-bottom: 0;
+	color:rgb(47, 66, 8);
+	line-height: 0.5;
+	margin-top: 0;
+	z-index: -1;
+	font-family: "Great Vibes", cursive;
+  }
+  
+  .heading-section h2 {
+    margin-top: 10px;
+  color:rgb(87, 39, 4);
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 1;
+  }
+
+  /*********footer-content***********/
+  .footer-content
+{
+    height: fit-content;
+    background-color:rgb(187, 157, 157);
+    top: 0;
+}
+.footer-content h2
+{
+    color: rgb(47, 66, 8);
+    word-spacing: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.center
+{
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+}
+  .menu {
+    background-color:rgb(187, 157, 157);;
+  }
+  
+  .shop-info i {
+    color: rgb(87, 39, 4);
+    font-size: 50px;
+  }
+  
+  .shop-info h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#101d2c;
+  }
+  
+  .shop-info p,
+  .shop-info address {
+    color: rgb(87, 39, 4);
+  }
+  
+  hr {
+    font-family:'Pacifico', cursive;
+    border-top: 1px solid rgba(19, 17, 17, 0.05);
+  }

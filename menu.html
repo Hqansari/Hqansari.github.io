@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-compatiable" content="ie=edge">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="js/cookies.js"></script>
+<link rel="stylesheet" type="text/css" href="css/nav_logo.css">
+<title>Menu</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=WindSong&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(187, 157, 157) ;
+}
+.body
+{
+    color:rgb(187, 157, 157);
+}
+.header 
+{
+    height: fit-content;
+    background-color: rgb(187, 157, 157);
+    box-shadow: 0 5px 10px #efefef;
+    position: sticky;
+
+}
+
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    margin: 4px;
+}
+.logo 
+{
+    height: 80px;
+    padding: 1px 5px;
+    position: sticky;
+
+}
+.icon-bar
+{
+    background-color: rgb(170, 47, 47);
+}
+li a
+{
+  color: #000;
+}
+.big-text
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(87, 39, 4);
+    text-shadow: 1rem black;
+    text-decoration: solid;
+}
+.ftco-section {
+    padding: 2em 0;
+    position: relative;
+  }
+  
+  .heading-section {
+    position: relative;
+  }
+  
+  .heading-section .subheading {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    color: #c8a97e;
+    line-height: 1;
+    margin-top: 0;
+    z-index: -1;
+    font-family: "Great Vibes", cursive;
+  }
+  
+  .heading-section h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(107, 5, 102);
+    text-decoration: underline;
+  }
+.menu-wrap {
+    margin-bottom: 0;
+  }
+  
+  .heading-menu h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 1em;
+  }
+  
+  .menus {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    padding: 20px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .menus .text {
+    width: calc(100% - 100px);
+    padding-left: 20px;
+  }
+  
+  .menus .text .one-half {
+    width: calc(100% - 80px);
+  }
+  
+  .menus .text .one-half h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .menus .text .one-forth {
+    width: 80px;
+    text-align: right;
+  }
+  
+  .menus .text .one-forth .price {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.2);
+    color: #000000;
+    font-weight: 600;
+    line-height: 1.3;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #0a090a;
+  }
+  
+  .menus .text p {
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .menus .menu-img {
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+  }
+  
+  .menus:hover {
+    border: 1px solid #3a2a30;
+    background: linear-gradient(
+      235deg,
+      rgba(231, 111, 169, 0.741) 30%,
+      rgba(158, 106, 134, 0.763) 67%
+    );
+  }
+  
+  .menus:hover .text .one-forth .price {
+    color: #0a09093d;
+    border-bottom: 2px solid #0a09093d;
+  }
+  
+  .menus:hover .text p {
+    color: rgba(0, 0, 0, 0.8);
+  }
+</style>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="big-text"> THE CAKE COTTAGE</p></h1>
+        </div>
+        <section class="ftco-section" id="menu">
+            <div class="container-fluid px-4">
+                <div class="row justify-content-center mb-5 pb-2">
+                    <div class="col-md-7 text-center heading-section ftco-animate">
+                        <h2 class="mb-4">Menu</h2>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 menu-wrap">
+                        <div class="heading-menu text-center ftco-animate">
+                            <h3>Pastries</h3>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/black.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Blackberries</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹99</span>
+                                    </div>
+                                </div>
+                                <p><span>Cherry</span>, <span>Berry</span>, <span>choco chips</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/choco.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                    <h3>Chocolate</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹89</span>
+                                    </div>
+                                </div>
+                                <p><span>Cherry</span>, <span>Berry</span>, <span>choco chips</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/red\ vel.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Red Velvet</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹79</span>
+                                    </div>
+                                </div>
+                                <p><span>Cherry</span>, <span>Berry</span>, <span>Cream</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/bfort.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Black forrest</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹99</span>
+                                    </div>
+                                </div>
+                                <p><span>Dark Chocolate</span>, <span>Chocolate</span>, <span>Cream</span>
+                                </p>
+                            </div>
+                        </div>
+                    <div class="menus d-flex ftco-animate">
+                        <div class="menu-img img" style="background-image: url(img/strawb.png);"></div>
+                        <div class="text">
+                            <div class="d-flex">
+                                <div class="one-half">
+                                    <h3>Strawberry</h3>
+                                </div>
+                                <div class="one-forth">
+                                    <span class="price">₹49</span>
+                                </div>
+                            </div>
+                            <p><span>Strawberry</span>, <span>Cherry</span>, <span>Berry</span>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+            
+
+                    <div class="col-md-6 col-lg-4 menu-wrap">
+                        <div class="heading-menu text-center ftco-animate">
+                            <h3>Festive Cakes</h3>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/pine.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>wedding cake</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹999</span>
+                                    </div>
+                                </div>
+                                <p><span>Strawberry</span>, <span>Chocolate</span>, <span>Pineapple</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/bel.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                    <h3>Truffle</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹499</span>
+                                    </div>
+                                </div>
+                                <p><span>Chocolate</span>, <span>Choco chips</span><span>Cream</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/orange.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Orange</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹299</span>
+                                    </div>
+                                </div>
+                                <p><span>Dry fruits</span>, <span>Chocolate orange</span>, <span>Cream</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/mango.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Mango</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹349</span>
+                                    </div>
+                                </div>
+                                <p><span>Dry fruits</span>, <span>Chocolate mango </span>, <span>Cream</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/create.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Creative cake</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹699</span>
+                                    </div>
+                                </div>
+                                <p><span>Chocolates</span>, <span>choco chips</span>, <span>Cream</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 menu-wrap">
+                        <div class="heading-menu text-center ftco-animate">
+                            <h3>Cookies and muffins</h3>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/cookies.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Cookies</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹199</span>
+                                    </div>
+                                </div>
+                                <p><span>Choco chips</span>, <span>Chocolate</span>, <span>Dry fruits</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/muf.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Muffins</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹99</span>
+                                    </div>
+                                </div>
+                                <p><span>Cherry</span>, <span>Choco chips</span>, <span>Fruits</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex ftco-animate">
+                            <div class="menu-img img" style="background-image: url(img/straw.png);"></div>
+                            <div class="text">
+                                <div class="d-flex">
+                                    <div class="one-half">
+                                        <h3>Cup cake</h3>
+                                    </div>
+                                    <div class="one-forth">
+                                        <span class="price">₹49</span>
+                                    </div>
+                                </div>
+                                <p><span>Strawberry</span>, <span>Chocolate</span>, <span>Berry</span>, <span>Cream</span>
+                                </p>
+                            </div>
+                </div>
+                <div class="menus d-flex ftco-animate">
+                    <div class="menu-img img" style="background-image: url(img/lava.png);"></div>
+                    <div class="text">
+                        <div class="d-flex">
+                            <div class="one-half">
+                                <h3>Molten Lava</h3>
+                            </div>
+                            <div class="one-forth">
+                                <span class="price">₹99</span>
+                            </div>
+                        </div>
+                        <p><span>Choco powder</span>, <span>Choco chips</span>, <span>Cream</span>
+                        </p>
+                    </div>
+        </div>
+        <div class="menus d-flex ftco-animate">
+            <div class="menu-img img" style="background-image: url(img/p\ lava.png);"></div>
+            <div class="text">
+                <div class="d-flex">
+                    <div class="one-half">
+                        <h3>Peanut lava </h3>
+                    </div>
+                    <div class="one-forth">
+                        <span class="price">₹400</span>
+                    </div>
+                </div>
+                <p><span>Peanuts</span>, <span>Choco chips</span>, <span>Cream</span>
+                </p>
+            </div>
+</div>
+            </div>
+        </section>
+    
